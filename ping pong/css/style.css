@@ -1,0 +1,54 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/*. muda a cor  das duas metatdes do campo */
+main {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right, #b71c1c 50%, #0d47a1 50%);
+}
+.divisa {
+    width: 8px;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    opacity: 1;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+/* Raquete do 1 */
+.racket {
+    width: 70px;
+    height: auto;
+    position: absolute;
+    left: 80px;
+    top: 100px;
+    margin: 0;
+}
+/*racket do 2*/
+.racket1 {
+    width: 70px;
+    height: auto;
+    position: absolute;
+    right: 80px;
+    top: 100px;
+}
+.bola {
+     width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 350px;
+    top: 250px;
+    margin: 0;
+    border-radius: 50%;
+}
